@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0046)https://livedemo00.template-help.com/wt_68508/ -->
+<html class="wide wow-animation desktop landscape rd-navbar-fullwidth-linked" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Site Title-->
+   
+    <!-- Stylesheets-->
+
+ 
+    <link rel="stylesheet" href="./Home_files/style11.css">
+    <style>
+        /*
+*
+* Page Loaders
+* --------------------------------------------------
+*/
+        #page-loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 20px 20px 10%;
+            z-index: 9999999;
+            background: #fff;
+            transition: .3s all ease;
+        }
+
+            #page-loader.loaded {
+                opacity: 0;
+                visibility: hidden;
+                z-index: -1;
+            }
+
+            #page-loader.loading {
+                opacity: 3;
+                visibility: visible;
+                z-index: 2;
+            }
+
+            #page-loader.ending {
+                display: none;
+            }
+
+            #page-loader > * {
+                width: 100%;
+                text-align: center;
+            }
+
+            #page-loader .page-loader-body {
+                margin-top: 40px;
+                text-align: center;
+            }
+
+        [data-x-mode='design-mode'] #page-loader {
+            display: none;
+        }
+
+        #loadingProgressG {
+            width: 400px;
+            max-width: 90%;
+            height: 5px;
+            overflow: hidden;
+            background: #2a2a2a;
+            border-radius: 0;
+            margin: auto;
+        }
+
+        .loadingProgressG {
+            background: #ffc000;
+            margin-top: 0;
+            margin-left: -400px;
+            animation-name: bounce_loadingProgressG;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            width: 400px;
+            height: 5px;
+
+        }
+
+        @-webkit-keyframes bounce_loadingProgressG {
+            0% {
+                margin-left: -400px;
+            }
+
+            100% {
+                margin-left: 400px;
+            }
+        }
+
+        @keyframes bounce_loadingProgressG {
+            0% {
+                margin-left: -400px;
+            }
+
+            100% {
+                margin-left: 400px;
+            }
+        }
+
+    </style>
+    <script type="text/javascript">
+        function stopload() {
+            setTimeout(function () {
+                   document.getElementById("page-loader").className = "loaded";
+
+            }, 200); 
+       
+         
+        }
+    </script>
+  </head>
+                                                                                        <body onload="stopload();">
+                                                                                            <!-- Page Loader-->
+                                                                                            <div id="page-loader" class="loading">
+                                                                                                <div class="page-loader-logo">
+                                                                                                    <div class="brand">
+                                                                                                        <div class="brand__name">
+                                                                                                            <img src="./Home_files/logo-162x47.png" alt="" width="162" height="47">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="page-loader-body">
+                                                                                                    <div id="loadingProgressG">
+                                                                                                        <div class="loadingProgressG" id="loadingProgressG_1"></div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <!-- Page-->
+                                                                                 
+                                                                                     
+                                                                                              
+                                                                      
+                                                                               
+                                                                                        </body><!-- Google Tag Manager --></html>

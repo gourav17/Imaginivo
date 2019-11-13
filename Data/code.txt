@@ -1,0 +1,10 @@
+style="height:auto;position:absolute" 
+
+
+style="position:relative;text-align:right;padding-top:10px"
+
+
+style="position:relative;text-align:center"
+
+
+style="height:487px;width:342px"
